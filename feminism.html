@@ -12,10 +12,14 @@
 	background-color:HotPink;
 	color:white;
 	height:700px;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/3/3b/Paris_Tuileries_Garden_Facepalm_statue.jpg");
+	background-size: cover;
 }
 
 .title {
 	margin-top:150px;
+	background: rgba(250,0,0,0.5);
+	padding:20px;
 }
 
 h1 {
@@ -66,10 +70,27 @@ color:PowderBlue;
 	font-size: 50px;
 	color:RoyalBlue;
 	display: block;
+	padding:20px;
+	padding-bottom:0px;
+	padding-top:40px;
+}
+
+.pinky {
+	color:HotPink!important;
 }
 
 .links a {
-	font-size:28px;
+	font-size:24px;
+}
+
+.footer {
+	background-color: rgba(0,0,0,0.2);
+	text-align: center;
+	margin-top: 40px;
+}
+
+.footer p {
+	text-align: center;
 }
 </style>
 <body>
@@ -89,7 +110,7 @@ color:PowderBlue;
 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 </div>
 <div class="col-xs-4">
-	<span class="glyphicon glyphicon-heart logo"></span>
+	<span class="glyphicon glyphicon-heart logo slideanim" style="float:right;"></span>
 </div>
 </div>
 </div>
@@ -98,7 +119,7 @@ color:PowderBlue;
 
 <div class="row">
 	<div class="col-xs-4">
-	<span class="glyphicon glyphicon-thumbs-down logo"></span>
+	<span class="glyphicon glyphicon-thumbs-down logo slideanim"></span>
 	</div>
 		<div class="col-xs-8">	
 			<h2>"I believe in gender equality"</h2>
@@ -115,7 +136,21 @@ color:PowderBlue;
 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 </div>
 <div class="col-xs-4">
-	<span class="glyphicon glyphicon-wrench logo"></span>
+	<span class="glyphicon glyphicon-wrench logo" style="float:right;"></span>
+</div>
+</div>
+</div>
+
+<div class="container-fluid second">
+
+<div class="row">
+	<div class="col-xs-4">
+	<span class="glyphicon glyphicon-ok logo slideanim"></span>
+	</div>
+		<div class="col-xs-8">	
+			<h2>"It's okay to ask questions."</h2>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
 </div>
 </div>
 </div>
@@ -127,8 +162,8 @@ color:PowderBlue;
 			<a href="#">Important Reading</a>
 		</div>
 		<div class="col-md-4">
-			<span class="glyphicon glyphicon-thumbs-up"></span>
-			<a href="#">Important Reading</a>
+			<span class="glyphicon glyphicon-thumbs-up pinky"></span>
+			<a href="#" class="pinky">Important Reading</a>
 		</div>
 		<div class="col-md-4">
 			<span class="glyphicon glyphicon-thumbs-up"></span>
@@ -138,18 +173,43 @@ color:PowderBlue;
 
 	<div class="row">
 		<div class="col-md-4">
-			<span class="glyphicon glyphicon-thumbs-up"></span>
-			<a href="#">Important Reading</a>
+			<span class="glyphicon glyphicon-thumbs-up pinky"></span>
+			<a href="#" class="pinky">Important Reading</a>
 		</div>
 		<div class="col-md-4">
 			<span class="glyphicon glyphicon-thumbs-up"></span>
 			<a href="#">Important Reading</a>
+		</div>
+		<div class="col-md-4">
+			<span class="glyphicon glyphicon-thumbs-up pinky"></span>
+			<a href="#" class="pinky">Important Reading</a>
+		</div>
+	</div>
+
+		<div class="row">
+		<div class="col-md-4">
+			<span class="glyphicon glyphicon-thumbs-up"></span>
+			<a href="#">Important Reading</a>
+		</div>
+		<div class="col-md-4">
+			<span class="glyphicon glyphicon-thumbs-up pinky"></span>
+			<a href="#" class="pinky">Important Reading</a>
 		</div>
 		<div class="col-md-4">
 			<span class="glyphicon glyphicon-thumbs-up"></span>
 			<a href="#">Important Reading</a>
 		</div>
 	</div>
+</div>
+</div>
+
+<div class="container-fluid footer">
+
+<h2>Written by angry feminists. </h2>
+<p>You can contact us by snail mail</p>
+
+</div>
+</div>
 </div>
 
 </body>
